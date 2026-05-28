@@ -109,8 +109,8 @@ def print_counter(counter, lock):
 if __name__ == "__main__":
     raw_addresses = load_addresses()
 
-    print("Podaj zakres do BTC Puzzle (np. 255–256):")
-    start_bit = int(input("Od bitu (np. 255): "))
+    print("Podaj zakres do BTC Puzzle (np. 254–256):")
+    start_bit = int(input("Od bitu (np. 254): "))
     end_bit = int(input("Do bitu (np. 256): "))
     a = 2 ** start_bit
     b = 2 ** end_bit
